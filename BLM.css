@@ -14,9 +14,13 @@ button,input,select,textarea,optgroup{font:inherit;margin:0}optgroup{font-weight
 button,input{overflow:visible}button,select{text-transform:none}
 button,[type=button],[type=reset],[type=submit]{-webkit-appearance:button}
 .intro{
-    position:center;
+    text-align:center;
     color:grey;
     font-family:Georgia, 'Times New Roman', Times, serif
+}
+.reps{
+    position:inline-block;
+    text-align: center;
 }
 
 html,body{font-family:Georgia, 'Times New Roman', Times, serif,sans-serif;font-size:15px;line-height:1.5}html{overflow-x:hidden}
@@ -41,3 +45,26 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .red,.hover-red:hover{color:#fff!important;background-color:#f44336!important}
 .black,.w3-hover-black:hover{color:#fff!important;background-color:#000!important}
 
+.infostart{
+    text-align:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:darkgray
+    top:20;
+    right:0;
+    
+   
+}
+.map{
+text-align: center;
+display:float;
+
+}
+.title1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(0,0,0,0.1);
+    position:right;
+
+    
+   
+    
+}
